@@ -1,0 +1,38 @@
+@import './assets/style/normalize.scss';
+@import './assets/style/variables.scss';
+@import url('./assets/style/fonts.scss');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+%font {
+    font-family: 'Lab Grotesque', sans-serif;
+    font-size: $mainFontSize;
+    color: $mainText;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+body {
+    @extend %font;   
+    background-color: $mainBg; 
+}
