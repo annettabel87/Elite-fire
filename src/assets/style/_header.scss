@@ -49,8 +49,9 @@
     }
 }
 
-.navigation {
-    margin-left: 288px;
+.navigation {    
+    display: flex;
+    gap: 60px;
 }
 
 .nav {
