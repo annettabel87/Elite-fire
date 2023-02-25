@@ -1,0 +1,80 @@
+.header {
+    padding-top: 75px;
+    margin: 0 auto;
+    margin-bottom: 85px;
+
+    &__btn {
+        background: #FFCF7A;
+        border-radius: 2px;
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(56.21deg, rgba(249, 139, 77, 0.8) 25%, rgba(255, 217, 196, 0.8) 75%, rgba(255, 255, 255, 0.8) 100%);
+        
+        &:hover {
+            background: linear-gradient(56.21deg, rgba(238, 119, 50, 0.8) 25%, rgba(241, 187, 157, 0.8) 75%, rgba(245, 210, 210, 0.8) 100%);
+            cursor: pointer;
+        }
+    }
+}
+
+.header-container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 39px;
+    align-items: center;
+    max-width: 300px;
+    font-weight: 400;
+
+    &__link {
+        font-family: 'Scania Sans CY Headline';
+        font-size: 20px;
+        line-height: 3.5;
+        letter-spacing: 0.105em;
+        
+        &:hover {
+            color: $activeLinkColor;
+        }
+    }
+
+    &__text {
+        color: #6D6D6D;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.05em;
+    }
+}
+
+.navigation {
+    margin-left: 288px;
+}
+
+.nav {
+    display: flex;
+    gap: 43px;
+    align-items: center;
+
+    &__item {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: $linkColor;
+    }
+
+    &__link {
+        
+        &:hover {
+            color: lighten($color: $linkColor, $amount: 20%);
+        }
+
+        &-active {
+            color: $activeLinkColor;
+        }
+    }
+}
