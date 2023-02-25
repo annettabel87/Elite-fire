@@ -1,0 +1,48 @@
+.fire  {
+    padding-top: 220px;
+    text-align: center;
+    background-color: $mainBg;
+    background-image: url('/src/assets/image/kamin-b.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 6%;
+
+    &__title {        
+        max-width: 59%;
+        text-align: center;
+        margin: 0 auto;
+        background: linear-gradient(240.22deg, #FFFFFF 31.8%, rgba(255, 255, 255, 0) 95.73%);
+        margin-bottom: 21px;
+    }
+
+    &__description {
+        margin: 0 auto;
+        max-width: 46%;
+        font-weight: 300;
+        font-size: $descriptionFontSize;
+        line-height: 1.65;        
+        letter-spacing: 0.03em;
+        margin-bottom: 478px;
+    }
+
+    &__cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 123px;
+        margin-left: 85px;
+    }
+
+    &__card {
+        display: flex;
+        align-items: center;
+        max-width: 250px;
+        gap: 34px;
+        text-align: left;
+    }
+
+    &__text {        
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}

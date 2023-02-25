@@ -3,6 +3,7 @@
 @import url('./assets/style/fonts.scss');
 @import './assets/style/header.scss';
 @import './assets/style/_auto-camin.scss';
+@import './assets/style/fire.scss';
 
 
 
@@ -51,4 +52,16 @@ body {
     font-weight: 500;   
     font-size: 18px;  
     line-height: 1.67;
+}
+
+.title {
+    font-weight: 250;
+    font-size: $titleFontSize;
+    line-height: 1.5;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
