@@ -1,0 +1,146 @@
+.smart {
+
+    &__header {
+        background-image: url('/src/assets/image/kamin-long.png');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+        -webkit-box-shadow: 0px 0px 87px 121px rgb(0 0 0) inset;
+        -moz-box-shadow: 0px 0px 87px 121px rgb(0 0 0) inset;
+        box-shadow: 0px 0px 87px 121px rgb(0 0 0) inset;   
+        height: 672px;
+        margin-bottom: 41px;
+
+        &__description {
+            text-align: center;            
+            font-size: $descriptionFontSize;
+            line-height: 1.65;
+            max-width: 516px;
+            margin: 0 auto;
+        }    
+    }    
+
+    &__title-wrap {            
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        margin-bottom: 30px;
+        background: linear-gradient(247.29deg, #FFFFFF 35.25%, rgba(255, 255, 255, 0) 104.81%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+
+        span {
+            width: 31px;
+            display: inline-block;            
+            height: 1px;
+            background-color: $linkColor;
+        } 
+    }      
+    
+    &__description {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 109px 116px;        
+        justify-content: space-between;
+        margin-bottom: 103px;
+
+        &__item {           
+            max-width: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            &:nth-child(2) > .img__black {
+                margin-top: 50px;
+            }
+        }
+
+        &__title {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 1.7;
+            margin-bottom: 25px;
+            max-width: 64%;              
+        }
+
+        &__text {
+            font-weight: 400;            
+            line-height: 1.86;                     
+        }
+
+        &__img {
+            width: 571px;
+            height: 167px;
+            margin-bottom: 31px;
+        }
+
+        &__subitem-wrapp {
+           display: flex;
+           flex-direction: column;
+           gap: 57px;
+        }
+
+        &__subtitle {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.5;
+            color: $subtitleColor;
+            margin-bottom: 27px;            
+        }
+
+        &__list-wrapp {
+            display: flex;
+            gap: 100px;            
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;            
+        }        
+    }
+
+    &__footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__title {
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 1.47;
+            margin-bottom: 35px;
+        }
+    }
+}
+
+.text_underline {
+    width: 454px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgba(255, 207, 122, 0.72);
+    margin-bottom: 22px;
+    position: relative;
+    
+    &::after {
+        content: '';
+        width: 58.25px;
+        height: 1px;
+        background-color:  rgba(255, 207, 122, 0.72);
+        position: absolute;
+        bottom: -24px;
+        right: -45px;
+        rotate: 56deg;
+    }
+}  
+
+.img__black {
+    max-width: 537px;
+    width: 537px;
+    height: 346px;
+    margin-top: 37px;
+}
+
+

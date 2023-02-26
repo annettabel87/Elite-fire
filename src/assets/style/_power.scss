@@ -1,11 +1,14 @@
 .power {
     background-color: $mainBg;
-        background-image: url('/src/assets/image/power.png');
-        background-repeat: no-repeat;
-        background-position-x: right;
-        background-position-y: 39%;
-        padding-top: 112px;
-        box-shadow: 0px 28px 24px 9px rgb(0 0 0 / 63%) inset;        
+    background-image: url('/src/assets/image/power.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 39%;
+    padding-top: 112px;
+    -webkit-box-shadow: 0px 28px 24px 9px rgb(0 0 0 / 63%) inset; 
+    -moz-box-shadow: 0px 28px 24px 9px rgb(0 0 0 / 63%) inset; 
+    box-shadow: 0px 28px 24px 9px rgb(0 0 0 / 63%) inset;    
+    margin-bottom: 167px;    
 
     &__container {
         position: relative;
@@ -41,7 +44,7 @@
         margin-left: 37.1%;
         max-width: 230px;        
     }
-    
+
     &__icons {
         display: flex;
         align-items: center;
@@ -74,8 +77,8 @@
     flex-direction: column;
     font-family: 'Scania Sans CY';
     position: absolute;
-    top: 12.5%;
-    right: 8.5%;
+    top: 56px;
+    right: 105px;
 
     &__title {        
         font-weight: 700;

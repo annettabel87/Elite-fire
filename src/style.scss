@@ -5,6 +5,7 @@
 @import './assets/style/_auto-camin.scss';
 @import './assets/style/fire.scss';
 @import './assets/style/power';
+@import './assets/style/smart.scss';
 
 
 
@@ -53,6 +54,18 @@ body {
     font-weight: 500;   
     font-size: 18px;  
     line-height: 1.67;
+}
+
+.btn__colored {
+    padding: 13px 63px;
+    background: #ECCF94;
+    border-radius: 1px;
+    background-image: url('/src/assets/image/btn-colored.png');
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 
 .title {
