@@ -6,6 +6,8 @@
 @import './assets/style/fire.scss';
 @import './assets/style/power';
 @import './assets/style/smart.scss';
+@import './assets/style/solution.scss';
+@import './assets/style/laboratory.scss';
 
 
 
@@ -78,4 +80,17 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+}
+
+.three-items__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+
+.three-items__item {
+    width: 370px;
+    height: 267px;
+    background: #121212;
+    border-radius: 2px;
 }
