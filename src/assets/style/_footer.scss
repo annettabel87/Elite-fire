@@ -1,0 +1,31 @@
+.footer  {
+    padding-bottom: 43px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__logo {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 0;
+        letter-spacing: 0.105em;
+    }
+
+    &__about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 78px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        color: #6D6D6D;
+        letter-spacing: 0.05em;
+    }
+}

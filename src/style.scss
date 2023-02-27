@@ -10,6 +10,7 @@
 @import './assets/style/laboratory.scss';
 @import './assets/style/booking.scss';
 @import './assets/style/contacts.scss';
+@import './assets/style/footer.scss';
 
 
 
@@ -112,4 +113,8 @@ body {
        transform: scale(1.2);
        color: $mainBg;
     }
+}
+
+.upper-text {
+    text-transform: uppercase;
 }
