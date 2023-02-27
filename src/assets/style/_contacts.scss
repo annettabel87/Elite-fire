@@ -1,6 +1,7 @@
 .contacts {
-    margin-bottom: 124px;
-    
+    padding-top: 69px;
+    background: #121212;
+
     &__title {
         text-align: left;
         background: linear-gradient(231.91deg, #FFFFFF 49.36%, rgba(255, 255, 255, 0) 107.46%);
@@ -9,7 +10,8 @@
 
     &__info-block {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 30px 258px;
         flex-wrap: wrap;
     }
 

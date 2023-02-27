@@ -1,5 +1,5 @@
 .booking {
-    margin-bottom: 168px;
+    margin-bottom: 99px;
 
     &__title {
         text-align: center;
@@ -8,7 +8,9 @@
     }
 
     &__wrapp {
-        display: flex;        
+        display: flex;    
+        flex-wrap: wrap;
+        justify-content: center;    
         gap: 85px;
     }    
 
@@ -260,7 +262,7 @@
         
         &:checked + .checkbox__label::after {
             content: '+';
-            color: $mainBg;
+            color: #000000;
             border-color: $btnBg;
             background-color: $btnBg;   
             display: flex;

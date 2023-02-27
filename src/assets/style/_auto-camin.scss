@@ -23,7 +23,11 @@
         background-clip: text;
         text-fill-color: transparent; 
     }
-    
+    .light {
+        position: absolute;
+        top: 1%;
+        right: 7%;
+    }
 }
 
 .price__text {

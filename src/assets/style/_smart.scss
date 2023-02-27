@@ -6,9 +6,9 @@
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: bottom;
-        -webkit-box-shadow: 0px 0px 87px 121px rgb(0 0 0) inset;
-        -moz-box-shadow: 0px 0px 87px 121px rgb(0 0 0) inset;
-        box-shadow: 0px 0px 87px 121px rgb(0 0 0) inset;   
+        -webkit-box-shadow: 0px 0px 87px 121px rgb(29 29 28) inset;
+        -moz-box-shadow: 0px 0px 87px 121px rgb(29 29 28) inset;
+        box-shadow: 0px 0px 87px 121px rgb(29 29 28) inset;   
         height: 672px;
         margin-bottom: 41px;
 
@@ -141,8 +141,8 @@
 
 .img__black {
     max-width: 537px;
-    width: 537px;
-    height: 346px;
+    width: 100%;
+    height: auto;
     margin-top: 37px;
 }
 

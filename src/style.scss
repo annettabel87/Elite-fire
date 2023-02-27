@@ -90,8 +90,9 @@ body {
 
 .three-items__block {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;   
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 42px;  
 }
 
 .three-items__item {
@@ -111,7 +112,7 @@ body {
     &:hover {
        background: #ECCF94;
        transform: scale(1.2);
-       color: $mainBg;
+       color: #000000;
     }
 }
 
