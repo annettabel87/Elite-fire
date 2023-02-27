@@ -1,0 +1,44 @@
+.contacts {
+
+    &__title {
+        text-align: left;
+        background: linear-gradient(231.91deg, #FFFFFF 49.36%, rgba(255, 255, 255, 0) 107.46%);
+        margin-bottom: 81px;
+    }
+
+    &__info-block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;        
+    }
+
+    &__item  {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;        
+    }
+
+    &__subtitle {
+        color: $linkColor;
+    }
+
+    &__text {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+
+    &__link {
+        color: $activeLinkColor;
+    }
+
+    &__phone {
+        font-weight: 250;
+        font-size: 36px;        
+    }
+}

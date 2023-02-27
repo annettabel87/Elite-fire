@@ -8,6 +8,8 @@
 @import './assets/style/smart.scss';
 @import './assets/style/solution.scss';
 @import './assets/style/laboratory.scss';
+@import './assets/style/booking.scss';
+@import './assets/style/contacts.scss';
 
 
 
@@ -19,7 +21,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 li {
     list-style: none;
@@ -31,7 +33,9 @@ a {
     cursor: pointer;
     transition: 0.3s;
 }
+
 button {
+    cursor: pointer;
     transition: 0.3s;
 }
 
@@ -47,10 +51,12 @@ body {
     @extend %font;   
     background-color: $mainBg; 
 }
+
 .container {
     max-width: 1194px;
     margin: 0 auto;
 }
+
 .btn {
     border-radius: 1px;
     font-weight: 500;   
@@ -62,15 +68,14 @@ body {
     padding: 13px 63px;
     background: #ECCF94;
     border-radius: 1px;
-    background-image: url('/src/assets/image/btn-colored.png');
-    cursor: pointer;
+    background-image: url('/src/assets/image/btn-colored.png');    
 
     &:hover {
         transform: scale(1.2);
     }
 }
 
-.title {
+.title {    
     font-weight: 250;
     font-size: $titleFontSize;
     line-height: 1.5;
@@ -79,7 +84,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    text-fill-color: transparent;    
 }
 
 .three-items__block {
@@ -93,4 +98,18 @@ body {
     height: 267px;
     background: #121212;
     border-radius: 2px;
+}
+
+.btn__bordered {
+    background-color: transparent;
+    color: $mainText;
+    padding: 15px 29px;
+    border: 1px solid #CEB787;
+    border-radius: 2px;
+
+    &:hover {
+       background: #ECCF94;
+       transform: scale(1.2);
+       color: $mainBg;
+    }
 }
