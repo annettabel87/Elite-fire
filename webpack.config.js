@@ -17,7 +17,7 @@ const devServer = (isDev) => !isDev ? {} : {
 
 module.exports = ({develop}) =>({
   mode: develop ? 'development' : 'production',
-  devtool: develop ? 'inline-source-map' : 'none',
+  devtool: develop ? 'eval-cheap-module-source-map' : 'source-map',
   entry: './src/index.js',
   output: {
     filename: 'main.js',
