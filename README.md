@@ -1,4 +1,4 @@
-# Elite-fire
+# Elite-fire тестовое с вёрсткой без адаптива
 
 ### deploy: https://elitefire.netlify.app/
 
